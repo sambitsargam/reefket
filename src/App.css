@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.default-theme {
+  --drk-blue: #1A202C;
+  --borderGrey: #5e6064;
+  --md-blue: #223251;
+  --lt-drk-blue: #16426e;
+  --text-grey: #A0AEC0;
+  --font-color: var(--white);
+  background-color: var(--drk-blue);
+  transition:all 0.3s;
+}
+
+
+
+.App-header {
+  --drk-blue: #1A202C;
+  --borderGrey: #5e6064;
+  --md-blue: #223251;
+  --lt-drk-blue: #16426e;
+  --text-grey: #A0AEC0;
+  --font-color: var(--white);
+  background-color: var(--drk-blue);
+  transition:all 0.3s;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
